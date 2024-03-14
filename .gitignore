@@ -1,0 +1,52 @@
+############ How to write .gitignore ###########
+                                               
+# To ignore a specific file
+# filename.ext
+
+# To ignore a specific directory
+# directory/
+
+# To ignore files with a specific extension
+# *.ext
+
+# To ignore files matching a specific pattern
+# pattern*
+#==============================================#
+
+# To ignore a specific file
+
+# To ignore files with a specific extension
+
+# Node.js
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+lib-cov
+coverage
+.nyc_output
+.nyc_tmp
+
+# Environment variables
+.env
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Compiled binary addons (https://github.com/nodejs/node-gyp/issues/1113)
+build/Release
